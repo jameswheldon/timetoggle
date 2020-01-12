@@ -1,0 +1,15 @@
+Code structure
+
+Index page 
+    - CSS:
+        - 1-751.css        -- mobile
+        - 752-1570.css     -- 13" MBP
+        - 1571plus.css     -- large laptops
+
+    - JS
+        - Master JS file        script.js
+        - Month selector bar:   month-select-bar.js
+        - Header logo click:    header-logo-click.js
+        - Mobile menu (sidenav) mobile-menu.js
+
+                

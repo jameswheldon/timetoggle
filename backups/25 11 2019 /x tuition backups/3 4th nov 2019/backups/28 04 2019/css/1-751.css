@@ -1,0 +1,549 @@
+* { margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+#css752-1570 {
+    display: none;
+    }
+
+#css1571plus {
+    display: none;
+    }
+
+    /* HEADER */
+.header {
+    display: none;
+
+}
+
+
+
+.m-header {
+    background-image: -webkit-linear-gradient(#0b4b8b, #103961);
+    min-width: 100%;
+    min-height: 60px;
+    display: inline-flex;
+    justify-content: space-between;
+
+}   
+
+.hamburger {
+    padding-top: 10px;
+    margin-left: 100%;
+    width: 35px;
+    height: 25px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.hamburger-line-light {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    opacity: 0.5;
+    margin: 6px 0;
+}
+
+.hamburger-line-medium {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    opacity: 0.75;
+    margin: 6px 0;
+}
+
+.hamburger-line-dark {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    opacity: 1;
+    margin: 6px 0;
+}
+
+.hamburger-blank {
+    width: 35px;
+    height: 5px;
+    opacity: 0;
+    margin: -6px 0;
+}
+
+
+
+
+
+
+
+
+
+
+#m-header-logo {
+    max-width: 70%;
+    max-height: 30px;
+    margin-left: 21%;
+    margin-top: 19px;
+
+}
+
+
+
+
+
+
+
+#m-header-notif {
+    overflow: hidden;
+    margin-right: 40px;
+    margin-top: 10px;
+    max-height: 40px;
+    border-radius: 100%;
+    border:2.5px solid white;
+
+
+  }
+
+
+
+    /* DESKTOP SUBHEADER --- DISABLED */
+.subheader {
+    display: none;
+    }
+
+/* MOBILE SUBHEADER - STATUS INFO WITH RAZOR GRADIENT BG */
+.m-subheader {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -4px;
+    height: 150px;
+    width: 100%;
+    background-image: url('https://i.ibb.co/J5kr8gZ/m-sub-bg2.png');
+    background-size: cover;    
+    color: white;
+    font-family: 'Roboto', sans serif;
+
+}
+
+    .m-subheader-left {
+      margin-left: 6%;
+      margin-top: 10px;
+         }
+
+
+
+        #m-overtime-title {
+            text-transform: uppercase;
+            background-color: #0c3053;
+            border-radius: 7px;
+            width: 90px;
+            font-size: 14px;
+            line-height: 28px;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-left: -10px;
+
+        }
+
+
+        #m-absence-title {
+         text-transform: uppercase;
+         margin-top: 20px;
+         background-color: #0c3053;
+         border-radius: 7px;
+         line-height: 28px;
+         font-size: 14px;
+         padding-left: 10px;
+         margin-left: -10px;
+         max-width: 84px;       
+        }
+
+
+            #m-subheader-data {
+                margin-top: 5px;  
+            }
+
+
+            #m-subheader-data-r {
+                margin-top: 5px;
+                line-height: 32px;  
+            }
+
+
+            .m-right-sub-data-txt {
+                margin-top: 0px;
+            }
+
+    .m-subheader-right {
+     margin-right: 6%;
+     margin-top: -30px;
+     text-align: right;
+
+    }
+
+        
+
+        #m-leave-title {
+            text-transform: uppercase;
+            background-color: #0c3053;
+            line-height: 28px;
+            margin-top: 35px;
+            float: right;
+            border-radius: 7px;
+            font-size: 14px;
+            padding-left: 13px;
+            padding-right: 13px;
+            margin-right: -10px;
+           }
+
+        #m-overtime-banked-data-p2line {
+            margin-top: 8px;
+        }   
+
+        .m-if-app {
+            background-color: rgb(80, 126, 253);
+            color: white;
+            border-radius: 7px;
+
+            line-height: 28px;
+            margin-right: -15px;
+            padding-left: 15px;
+            padding-right: 15px;
+            max-width: 189px;
+            text-align: right;
+        }
+        
+       
+
+    /* TOP */
+.top-container {
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-top: -2px; 
+    display: block;
+    align-content: flex-start;
+    width: 99%;
+    height: 700px;
+    overflow: hidden;
+    justify-content: space-between;
+    background-color: #;
+}
+
+    .search-staff {
+        display: none;
+    }
+
+    .search-underline {
+        display: none;
+    }
+
+    .staff-search-image img {
+        display: none;
+    }
+            /* MONTH BAR DARK BLUE SECTION WHOLE */
+    .month-parent {
+     display: inline-flex;
+     margin-right: 0px;
+     height: 38px;
+     width: 100%;
+     justify-content: flex-end;
+    }
+            /* MONTH BUTTONS HOLDER */
+        .month-select-container {
+            display: inline-flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            height: 60px;
+            margin-left: auto;
+            margin-right: 0%;
+            width: 100%;
+            Background-color: #103961;
+            border-radius: 7px;
+        }
+            /* MONTH BAR BUTTONS */
+            .month {
+                background-color: #51b9f9;
+                text-align: center;
+                margin-top: 7.5px;
+                border-radius: 7px;
+                width: 16%;
+                height: 35%;
+                margin-left: 1px;
+                cursor: pointer;
+
+            }
+        #month-jan, #month-feb, #month-mar, #month-apr, #month-may, #month-jun, #month-jul, #month-aug, #month-aug, #month-sep, #month-oct, #month-nov, #month-dec {
+            display: none;
+        }
+
+            #jan {
+                background-color: #51b9f9;
+            }
+
+            #feb {
+                background-color: #51b9f9;
+            }
+
+            #mar {
+                background-color: #51b9f9;
+            }
+
+            #apr {
+                background-color: #51b9f9;
+            }
+            
+            #may {
+                background-color: #51b9f9;
+            }
+
+            #jun {
+                background-color: #51b9f9;
+            }
+
+            #jul {
+                background-color: #51b9f9; margin-top: -5px;
+            }
+
+            #aug {
+                background-color: #51b9f9; margin-top: -5px;
+            }
+
+            #sep {
+                background-color: #51b9f9; margin-top: -5px;
+            }
+
+            #oct {
+                background-color: #51b9f9; margin-top: -5px;
+            }
+
+            #nov {
+                background-color: #51b9f9; margin-top: -5px;
+            }
+
+            #dec {
+                background-color: #51b9f9; margin-top: -5px;
+            }
+
+            .month p {
+                font-family: 'work sans', sans-serif; 
+                font-weight: 300;
+                font-size: 0.85rem;
+                margin-top: 3px; 
+                text-transform: uppercase;
+            }
+ 
+            .month-parent {
+                font-family: 'work sans', sans-serif; 
+                 font-weight: 100;
+                 margin-top: 5.9px; 
+                 text-transform: uppercase;
+                 color: white;
+            }
+
+
+
+     
+
+         
+             /* TOP MONTH BAR: TODAY BUTTON */
+        /*    .month-today {
+                background-color: #9fd2f8;
+                text-align: center;
+                margin-top: 5.5px;
+                border-radius: 7px;
+                width: 8%;
+                height: 70%;
+                margin-left: 1px;
+            }   */
+
+            #today-button {
+                display: none;
+            }
+
+
+            /* TOP MONTH BAR: TODAY BUTTON TEXT */
+            .month-today a {
+                color: #103961;
+                font-size: 0.85rem;
+                font-weight: 600;
+                text-align: center;
+                border-radius: 7px;
+                width: 7%;
+                height: 70%;
+            }            
+
+            /* TOP MONTH BAR: TODAY BUTTON TEXT */
+            .month-today p {
+                font-family: 'work sans', sans-serif; 
+                font-weight: 600;
+                margin-top: 3.5px; 
+                text-transform: uppercase;
+            }
+            /* TOP MONTH BAR: TODAY BUTTON */
+  /*          .month-year {
+                background-color: #009eff;
+                text-align: center;
+                margin-top: 5.5px;
+                border-radius: 7px;
+                width: 7%;
+                height: 70%;
+                margin-left: 1px;
+                margin-right:3%;
+            }   */
+
+
+            #year-button {
+                display: none;
+            }
+
+            /* TOP MONTH BAR: TODAY BUTTON TEXT */
+            .month-year p {
+                font-family: 'work sans', sans-serif; 
+                font-weight: 600;
+                margin-top: 3.5px; 
+                text-transform: uppercase;
+                font-weight: 600;
+            }           
+
+/* MOBILE SUBMENU (MOB ONLY) */
+.m-submenu-parent {
+    background-image: url('https://i.ibb.co/f2q78J6/m-sub-submenu-bg-with-top-shade.png');
+    background-size: cover;
+    height: 30px;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans serif;
+
+}     
+
+        .m-sub-calendar {
+            color: white;
+            width: 20%;
+            text-align: center;
+            border-radius: 7px;
+            padding-top: 6px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+
+        .m-sub-leave {
+            background-color: #0c3053;
+            color: white;
+            width: 20%;
+            border-radius: 7px;
+            text-align: center;
+            padding-top: 6px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }        
+
+
+        .m-sub-overtime {
+            background-color: #0c3053;
+            color: white;
+            width: 20%;
+            border-radius: 7px;
+            text-align: center;
+            padding-top: 6px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+
+        .m-sub-absence {
+            background-color: #0c3053;
+            color: white;
+            width: 20%;
+            border-radius: 7px;
+            text-align: center;
+            padding-top: 6px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+
+            /* CALENDAR SECTION */
+.calendar-container {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 5px; 
+    display: inline-flex;
+    align-content: flex-start;
+    width: 88%;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+.main-row {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+
+
+
+/* mobile menu sidenav */
+
+
+.sidenav {
+    display: none;
+    font-family: 'work sans';
+    height: 100%;
+    width: 60%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: -webkit-linear-gradient(#006cd8, #0c3053);
+    overflow-x: hidden;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #51b9f9;
+  }
+
+#logout-m:hover {
+    color: #103961;
+    background-color: white;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+

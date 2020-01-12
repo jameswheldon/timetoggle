@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<HTML>
+<head>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<!-- TITLE    -->
+
+<title>TimeToggle - Leave Planner</title>
+
+
+
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- MAKE THE WIDTH BASED ON DEVICE WIDTH, NOT SCREEN RESOLUTION WIDTH    -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- FAV */   -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- STYLE SHEETS -->
+
+    <!-- mobile: up to 751px wide  -->
+<link rel='stylesheet' media='screen and (min-width: 1px) and (max-width: 751px)' href='css/1-751.css' />
+
+    <!-- tablet: 752 to 1570 wide -->
+<link rel='stylesheet' media='screen and (min-width: 752px) and (max-width: 1570px)' href='css/752-1570.css' />
+
+<!-- non-mobile: 1571+ wide -->
+<link rel='stylesheet' media='screen and (min-width: 1571px)' href='css/1571plus.css' />
+
+
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- FONTS -->
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,600" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
+
+
+
+<script src="jquery-3.4.0.js"></script>
+
+
+</head>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- BODY */   -->
+<body>
+
+   
+  <!-- MOBILE HEADER  -->
+      <div class='m-header'>
+            <span style="cursor:pointer" onclick="openNav()">
+        <div class='hamburger'>
+            <div class='hamburger-line-dark'></div>
+            <div class='hamburger-blank'></div>            
+            <div class='hamburger-line-medium'></div>
+            <div class='hamburger-blank'></div>               
+            <div class='hamburger-line-light'></div>
+        </div></span>
+
+        <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <br><br><br>
+                <a href="#">Calendar</a>
+                <a href="#">Overtime</a>
+                <a href="#">Leave</a>
+                <a href="#">Sean</a>
+                <a href="#"></a>
+                <hr size="1" width="70%">
+                <a href="#"></a>
+                <a id='logout-m' href="#">Log out</a>
+              </div>
+
+        
+
+    <div class='m-logo-container'>
+        <img id='m-header-logo' src="img/logo.png" alt='TimeToggle logo'/>
+    </div>
+
+
+    <div class='m-header-notif'>
+            <img id='m-header-notif' src="img/sean-pro.jpg" alt='TimeToggle logo'/>
+        </div>
+
+
+
+      </div>
+
+
+
+
+
+
+
+<!-- DESKTOP HEADER  -->
+<div class = 'header'>
+
+
+<!-- DESKTOP HEADER  -->
+    <!-- HEADER LOGO -->
+    <div class='header-logo-container'>
+        <img id='header-logo' src="img/logo.png" alt='TimeToggle logo'/>
+        </div>
+
+    <!-- HEADER MENU -->
+    <div class='header-menu-container'>
+        <a href="index.html"><div class='header-buttons-sel'>Calendar</div></a>
+        <a href="overtime.html"><div class='header-buttons'>Overtime</div></a>
+        <a href="leave.html"><div class='header-buttons'>Leave</div></a>
+        <a href="profile.html"><div class='header-buttons'>Sean</div></a>
+    </div>
+
+    <!-- NOTIFICATION PROFILE IMAGE -->
+
+    <div class='header-menu-notif'>
+         <a href="notifications.html"><img src='img/sean-pro.jpg'/></a>
+    </div>
+
+
+</div>
+
+
+
+<!-- SUB HEADER  -->
+<div class='subheader'>
+    <div id='subheader-hello'>
+        <p id='css752-1570'>752-1570</p>
+        <p id='css1571plus'>1571+</p>
+    </div>
+
+    <div id='subheader-allowance'>
+        Annual leave remaining: <b>25 days</b>
+    </div>
+
+    <div id='subheader-company'>
+            Polly's Brew Co.
+    </div>    
+  
+</div>
+    
+    <!-- Mobile subheader (razor gradient background)-->
+    <div class='m-subheader'>
+            
+        <div class='m-subheader-left'>
+            <div class='m-subheader-overtime'>
+              <p id='m-overtime-title'>Overtime</p>
+              <p id='m-subheader-data'><b>1</b> hour <b>30</b> mins</p>            
+            </div>
+
+            <div class='m-subheader-absence'>
+              <p id='m-absence-title'>Absence</p>
+              <p id='m-subheader-data'><b>2</b> days (<b>4%</b>)</p>            
+            </div>
+       
+        </div>     
+
+        <div class='m-subheader-right'>
+                <div class='m-subheader-leave'>
+                  <p id='m-leave-title'>Remaining Leave</p>
+                  <div class='m-right-sub-data-txt'><p id='m-subheader-data-r'>
+                Leave: <b>16</b> / <b>25</b><br>
+                        <div class='m-if-app'><p id='m-overtime-banked-data-p2line'>Pending: <b>14</b> / <b>25</b></p></div>           
+                  </p></div>
+                </div>
+    
+        
+           
+            </div>    
+
+    </div>
+
+<!-- MOBILE HOME SUBMENU --- mobile line approx 420 -->
+<div class='m-submenu-parent'>
+        <div class='m-sub-calendar'><p id='m-sub-btn-txt'>Calendar</p></div>
+        <div class='m-sub-leave'><p id='m-sub-btn-txt'></p>Leave</div>
+        <div class='m-sub-overtime'><p id='m-sub-btn-txt'></p>Overtime</div>
+        <div class='m-sub-absence'><p id='m-sub-btn-txt'></p>Absence</div>
+</div>
+
+
+
+
+
+<!-- TOP CONTAINER -->
+<div class='top-container'>
+
+    <div class='search-staff'>
+        <p>Search staff</p>
+        <div class='search-underline'>
+            <br>
+        <div class='staff-search-image'><img src='img/staff-search.jpg'/></div>   
+        </div>
+    </div>
+
+
+
+
+
+
+<!-- DESKTOP AND MOBILE MONTH SELECTOR -->
+    <div class='month-parent'>
+        <div class='month-select-container'>
+          <div id='today-button' class='month-today'><p id='today'>Today</p></div>
+          <div id='year-button' class='month-year'><p>2018</p></div>
+          <div id='jan' class='month'><p id='month-jan'>Jan</p><p id='m-month-jan'>Jan</p></div>
+          <div id='feb' class='month'><p id='month-feb'>Feb</p><p id='m-month-feb'>Feb</p></div>
+          <div id='mar' class='month'><p id='month-mar'>Mar</p><p id='m-month-mar'>Mar</p></div>
+          <div id='apr' class='month'><p id='month-apr'>Apr</p><p id='m-month-apr'>Apr</p></div>
+          <div id='may' class='month'><p id='month-may'>May</p><p id='m-month-may'>May</p></div>
+          <div id='jun' class='month'><p id='month-jun'>Jun</p><p id='m-month-jun'>Jun</p></div>
+          <div id='jul' class='month'><p id='month-jul'>Jul</p><p id='m-month-jul'>Jul</p></div>
+          <div id='aug' class='month'><p id='month-aug'>Aug</p><p id='m-month-aug'>Aug</p></div>
+          <div id='sep' class='month'><p id='month-sep'>Sep</p><p id='m-month-sep'>Sep</p></div>
+          <div id='oct' class='month'><p id='month-oct'>Oct</p><p id='m-month-oct'>Oct</p></div>
+          <div id='nov' class='month'><p id='month-nov'>Nov</p><p id='m-month-nov'>Nov</p></div>
+          <div id='dec' class='month'><p id='month-dec'>Dec</p><p id='m-month-dec'>Dec</p></div>
+        </div>
+    </div>
+</div>
+
+<!-- CALENDAR CONTAINER -->
+<div class='calendar-container'>
+
+    <div class='main-row'></div>
+
+
+    </div>
+
+
+</div>
+
+
+<div class='js-playground-container'>
+
+        <div id='ptb' class='box1'><p>Push The Button</p></div>
+        <div id= 'box2' class='box2'><p id='lyric'>Song goes here!</p></div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- SCRIPTS -->
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/month-select-bar.js"></script>
+<script type="text/javascript" src="js/header-logo-click.js"></script>
+<script type="text/javascript" src="js/mobile-menu.js"></script>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</HTML>
+
+
+
+
+        
+
+        
+     

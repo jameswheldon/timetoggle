@@ -1,0 +1,312 @@
+* { margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+    /* HEADER */
+.header {
+    display: none;
+
+}
+
+
+
+.m-header {
+    background-image: -webkit-linear-gradient(#0b4b8b, #103961);
+    min-width: 100%;
+    min-height: 60px;
+    display: inline-flex;
+    justify-content: space-between;
+
+}   
+
+.hamburger {
+    padding-top: 10px;
+    margin-left: 6%;
+    width: 35px;
+    height: 25px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.hamburger-line-light {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    opacity: 0.5;
+    margin: 6px 0;
+}
+
+.hamburger-line-medium {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    opacity: 0.75;
+    margin: 6px 0;
+}
+
+.hamburger-line-dark {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    opacity: 1;
+    margin: 6px 0;
+}
+
+
+
+
+
+
+
+
+
+
+#m-header-logo {
+    max-width: 200px;
+    max-height: 30px;
+    margin-top: 17px;
+
+}
+
+
+
+
+
+
+
+#m-header-notif {
+    overflow: hidden;
+    margin-right: 40px;
+    margin-top: 10px;
+    max-height: 40px;
+    border-radius: 100%;
+    border:2.5px solid white;
+
+
+  }
+
+
+
+    /* SUBHEADER */
+.subheader {
+    display: none;
+    }
+
+    #subheader-hello {
+        align-self: center;
+        font-weight: 600;
+        margin-left: 6%;
+    }
+
+    #subheader-allowance {
+    align-self: center;
+    font-weight: 300;
+    margin-left: 2%;
+    }
+
+    #subheader-company {
+      align-self: center;
+      font-weight: 300;
+      margin-left: auto;
+      margin-right: 6%;
+    }
+
+
+
+    /* TOP */
+.top-container {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 35px; 
+    display: inline-flex;
+    align-content: flex-start;
+    width: 88%;
+    height: 70px;
+    overflow: hidden;
+    justify-content: space-between;
+    background-color: ;
+}
+
+    .search-staff {
+       height: 70px;
+       color: #103961;
+       max-width: 15%;
+       flex-grow: 1 ;
+       font-family: 'work sans', sans-serif; 
+       letter-spacing: -0.75px;
+       font-style: italic;
+        font-weight: 300px;
+        font-size: 1.3rem;
+    }
+
+    .search-underline {
+       width: 100%;
+       height: 1px;
+       background-color: #103961;
+    }
+
+    .staff-search-image img {
+      min-width: 120px;
+      max-width: 120px;
+      max-height: 30px;
+      margin-top: -10px;
+    }
+            /* MONTH BAR DARK BLUE SECTION WHOLE */
+    .month-parent {
+     display: inline-flex;
+     margin-right: 0px;
+     height: 38px;
+     width: 84%;
+     justify-content: flex-end;
+    }
+            /* MONTH BUTTONS HOLDER */
+        .month-select-container {
+            display: inline-flex;
+            padding-left: 1.5%;
+            padding-right: 1.5%;
+            height: 100%;
+            margin-left: auto;
+            margin-right: 0%;
+            width: 100%;
+            Background-color: #103961;
+            border-radius: 7px;
+        }
+            /* MONTH BAR BUTTONS */
+            .month {
+                background-color: #51b9f9;
+                text-align: center;
+                margin-top: 5.5px;
+                border-radius: 7px;
+                width: 7%;
+                height: 70%;
+                margin-left: 1px;
+            }
+
+
+            .month p {
+                font-family: 'work sans', sans-serif; 
+                font-weight: 300;
+                margin-top: 3.5px; 
+                text-transform: uppercase;
+            }
+ 
+            .month-parent a {
+                font-family: 'work sans', sans-serif; 
+                 font-weight: 600;
+                 margin-top: 5.9px; 
+                 text-transform: uppercase;
+                 font-weight: 600;
+                 color: white;
+            }
+
+/* MONTH */  .month-selected {
+/* SELECTED */  background-color: white;
+                text-align: center;
+                margin-top: 5.5px;
+                border-radius: 7px;
+                width: 7%;
+                height: 70%;
+                margin-left: 1px;
+            }
+
+
+/* MONTH */ .month-selected p {
+                font-family: 'work sans', sans-serif; 
+                font-weight: 600;
+                margin-top: 3.5px; 
+                text-transform: uppercase;
+                font-weight: 600;
+            }           
+
+
+/* MONTH */ .month-selected a {
+/* SELECTED */  color: #009eff;
+            }            
+             /* TOP MONTH BAR: TODAY BUTTON */
+            .month-today {
+                background-color: #9fd2f8;
+                text-align: center;
+                margin-top: 5.5px;
+                border-radius: 7px;
+                width: 8%;
+                height: 70%;
+                margin-left: 1px;
+            }
+            /* TOP MONTH BAR: TODAY BUTTON TEXT */
+            .month-today a {
+                color: #103961;
+                font-size: 0.85rem;
+                font-weight: 600;
+                text-align: center;
+                border-radius: 7px;
+                width: 7%;
+                height: 70%;
+            }            
+
+            /* TOP MONTH BAR: TODAY BUTTON TEXT */
+            .month-today p {
+                font-family: 'work sans', sans-serif; 
+                font-weight: 600;
+                margin-top: 3.5px; 
+                text-transform: uppercase;
+            }
+            /* TOP MONTH BAR: TODAY BUTTON */
+            .month-year {
+                background-color: #009eff;
+                text-align: center;
+                margin-top: 5.5px;
+                border-radius: 7px;
+                width: 7%;
+                height: 70%;
+                margin-left: 1px;
+                margin-right:3%;
+            }
+            /* TOP MONTH BAR: TODAY BUTTON TEXT */
+            .month-year p {
+                font-family: 'work sans', sans-serif; 
+                font-weight: 600;
+                margin-top: 3.5px; 
+                text-transform: uppercase;
+                font-weight: 600;
+            }           
+
+     
+
+
+
+            /* CALENDAR SECTION */
+.calendar-container {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 5px; 
+    display: inline-flex;
+    align-content: flex-start;
+    width: 88%;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+.main-row {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+
+
+

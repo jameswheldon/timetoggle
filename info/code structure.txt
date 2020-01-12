@@ -1,0 +1,21 @@
+Code structure
+
+Index page 
+    - CSS:
+        - 1-751.css        -- mobile
+        - 752-1570.css     -- 13" MBP
+        - 1571plus.css     -- large laptops
+
+    - JS
+        - Master JS file                                    script.js
+        - Month selector bar:                               month-select-bar.js
+        - Header logo click:                                header-logo-click.js
+        - Mobile menu (sidenav)                             mobile-menu.js
+        - Mobile: select today                              script.js
+        - Mobile submenu (home, beneath the stats bar)      mobile-home-submenu.js
+
+
+Dummy build pages
+    - requests-container.html                               sandbox to build mobile requests container
+    - modal form.htmml                                      sandbox to build the modal form for a new mobile leave request
+                

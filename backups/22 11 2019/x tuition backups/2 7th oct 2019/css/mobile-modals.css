@@ -1,0 +1,71 @@
+/* L E A V E     R E Q U E S T */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #0c3053;
+    background-image: -webkit-linear-gradient(#006cd8, #0c3053);
+    -webkit-box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.25);
+ -moz-box-shadow: -1px 1px 5px 9px rgba(0, 0, 0, 0.25);
+ box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.25);
+    font-family: 'roboto', work sans;
+    margin: auto;
+    padding: 20px;
+    border: 0px solid #fff;
+    width: 90%;
+    margin-top: 30%;
+    border-radius: 8px;
+  
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -20px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #0c3053;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  #modal-title {
+    color: white;
+    font-size: 2rem;
+    font-weight: 100;
+  }
+  #modal-line {
+    background-color: white;
+    height: 1px;
+    width: 75%;
+  }
+
+
+
+
+
+
+  .modal-form {
+    background-color: #;
+line-height: 40px;
+font-size: ;
+min-width: 300px;
+  }
+

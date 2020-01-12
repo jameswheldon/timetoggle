@@ -1,0 +1,427 @@
+* { margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+#mySidenav {
+    display: none;
+}
+
+
+#css1571plus {
+    display: none;
+    }
+
+.m-subheader {
+    display: none;
+} 
+
+.m-submenu-parent {
+    display: none; }
+
+
+.m-calendar-menu-bar-container {
+    display: none;
+}
+
+.year-select-container {
+    display: none;
+}  
+
+.dark-line-full-width {
+    display: none;
+}
+
+
+.home-calendar {
+    display: 'block';
+}
+
+.m-home-requests {
+    display: none;
+}
+
+
+
+
+    /* HEADER */
+.header {
+    background-image: -webkit-linear-gradient(#0b4b8b, #103961);
+    width: 100%;
+    min-height: 80px;
+    display: inline-flex;
+    align-content: center;
+
+}
+
+    .header-logo-container {
+        align-self: center;
+       margin-left: 6%;
+
+    }
+
+    #header-logo {
+      max-width: 140px;
+      max-height: 100px;
+       align-self: center;
+    }
+
+    #m-header-logo {
+        display: none;
+      }
+
+    .header-menu-container {
+       display: inline-flex;
+       align-self: center;
+       margin-left: auto;
+        margin-right: 3%;
+    }
+
+    .header-buttons {
+       color: #fff;
+       font-family: 'work sans', sans-serif; 
+       letter-spacing: -0.75px;
+       font-weight: 300;
+       text-decoration: none;
+       margin-left: 20px;
+       font-size: 1.3rem;
+    }
+
+    .header-buttons-sel {
+        color: #9fd2f8;
+        font-family: 'work sans', sans-serif; 
+        letter-spacing: -0.75px;
+        font-weight: 300;
+        text-decoration: none;
+        margin-left: 20px;
+        font-size: 1.3rem;
+     }
+
+
+    .header-menu-notif {
+       overflow: hidden;
+      margin-right: 6%;
+      max-height: 40px;
+      border-radius: 100%;
+      align-self: center;
+      border:2.5px solid white;
+
+    }
+
+    .m-header-notif {
+        display:none;
+    }
+
+
+    /* SUBHEADER */
+.subheader {
+    display: inline-flex;
+    width: 100%;
+    background-color: #eee;
+    min-height: 35px;
+    font-family: 'work sans', sans-serif; 
+    letter-spacing: -0.75px;
+    font-weight: 300;
+    color: #373737;
+    }
+
+    #subheader-hello {
+        align-self: center;
+        font-weight: 600;
+        margin-left: 6%;
+    }
+
+    #subheader-allowance {
+    align-self: center;
+    font-weight: 300;
+    margin-left: 2%;
+    }
+
+    #subheader-company {
+      align-self: center;
+      font-weight: 300;
+      margin-left: auto;
+      margin-right: 6%;
+    }
+
+
+
+    /* TOP */
+.monthly-container {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 35px; 
+    display: inline-flex;
+    align-content: flex-start;
+    width: 88%;
+    height: 70px;
+    overflow: hidden;
+    justify-content: space-between;
+    background-color: ;
+}
+
+    .search-staff {
+       height: 70px;
+       color: #103961;
+       max-width: 15%;
+       flex-grow: 1 ;
+       font-family: 'work sans', sans-serif; 
+       letter-spacing: -0.75px;
+       font-style: italic;
+        font-weight: 300px;
+        font-size: 1.3rem;
+    }
+
+    .search-underline {
+       width: 100%;
+       height: 1px;
+       background-color: #103961;
+    }
+
+    .staff-search-image img {
+      min-width: 120px;
+      max-width: 120px;
+      max-height: 30px;
+      margin-top: -10px;
+    }
+            /* MONTH BAR DARK BLUE SECTION WHOLE */
+    .month-parent {
+     display: inline-flex;
+     margin-right: 0px;
+     height: 38px;
+     width: 84%;
+     justify-content: flex-end;
+    }
+            /* MONTH BUTTONS HOLDER */
+        .month-select-container {
+            display: inline-flex;
+            padding-left: 0.75%;
+            padding-right: 0.75%;
+            height: 100%;
+            margin-left: auto;
+            margin-right: 0%;
+            width: 100%;
+            Background-color: #103961;
+            border-radius: 7px;
+        }
+            /* MONTH BAR BUTTONS */
+            .month {
+                text-align: center;
+                margin-top: 5.5px;
+                border-radius: 7px;
+                width: 7%;                
+                height: 70%;
+                margin-left: 2px;
+                cursor: pointer;
+            }
+
+            #jan {
+                background-color: #51b9f9;
+            }
+
+            #feb {
+                background-color: #51b9f9;
+            }
+
+            #mar {
+                background-color: #51b9f9;
+            }
+
+            #apr {
+                background-color: #51b9f9;
+            }
+            
+            #may {
+                background-color: #51b9f9;
+            }
+
+            #jun {
+                background-color: #51b9f9;
+            }
+
+            #jul {
+                background-color: #51b9f9;
+            }
+
+            #aug {
+                background-color: #51b9f9;
+            }
+
+            #sep {
+                background-color: #51b9f9;
+            }
+
+            #oct {
+                background-color: #51b9f9;
+            }
+
+            #nov {
+                background-color: #51b9f9;
+            }
+
+            #dec {
+                background-color: #51b9f9;
+            }
+
+            #m-month-jan, #m-month-feb, #m-month-mar, #m-month-apr, #m-month-may, #m-month-jun, #m-month-jul, #m-month-aug, #m-month-aug, #m-month-sep, #m-month-oct, #m-month-nov, #m-month-dec {
+                display: none;
+            }
+
+            .month p {
+                font-family: 'work sans', sans-serif; 
+                font-weight: 300;
+                margin-top: 3.5px; 
+                text-transform: uppercase;
+            }
+ 
+            .month-parent {
+                font-family: 'work sans', sans-serif; 
+                 font-weight: 600;
+                 margin-top: 5.9px; 
+                 text-transform: uppercase;
+                 font-weight: 600;
+                 color: white;
+            }
+
+
+
+
+/* MONTH */ .month-selected p {
+                font-family: 'work sans', sans-serif; 
+                font-weight: 600;
+                margin-top: 3.5px; 
+                text-transform: uppercase;
+                font-weight: 600;
+            }           
+
+        
+             /* TOP MONTH BAR: TODAY BUTTON */
+            .month-today {
+                text-align: center;
+                margin-top: 5.5px;
+                border-radius: 7px;
+                width: 10%;
+                height: 70%;
+            }
+            /* TOP MONTH BAR: TODAY BUTTON TEXT */
+            .month-today a {
+                color: #103961;
+                font-size: 0.85rem;
+                font-weight: 600;
+                text-align: center;
+                border-radius: 7px;
+                width: 7%;
+                height: 70%;
+            }            
+
+            #today-button{
+                background-color: #51b9f9;
+                cursor: pointer;
+            }
+
+            #today {
+                color: white;
+            }
+            /* TOP MONTH BAR: TODAY BUTTON TEXT */
+            .month-today p {
+                font-family: 'work sans', sans-serif; 
+                font-weight: 300;
+                margin-top: 5.9px; 
+                font-size: 0.9rem;
+                text-transform: uppercase;
+            }
+            /* TOP MONTH BAR: TODAY BUTTON */
+            .month-year {
+                background-color: #0081ff;
+                text-align: center;
+                margin-top: 5.5px;
+                border-radius: 7px;
+                width: 10%;
+                height: 70%;
+                margin-left: 1px;
+                margin-right:3%;
+            }
+            /* TOP MONTH BAR: TODAY BUTTON TEXT */
+            .month-year p {
+                font-family: 'work sans', sans-serif; 
+                font-weight: 600;
+                margin-top: 3.5px; 
+                text-transform: uppercase;
+                font-weight: 600;
+            }           
+
+     
+
+
+
+            /* CALENDAR SECTION */
+.home-central-container {
+display: none;
+}
+
+.main-row {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+
+
+/* ---- JS SANDBOX ---- */
+
+.js-playground-container {
+    width: 88%;
+    height: 500px;
+    background-color: #00ccff;
+    margin: 0 auto;
+    padding: 5%;
+
+
+}
+
+.box1 {
+    width: 20%;
+    height: 100px;
+    background-color: #000;   
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.box1 p {
+    color: white;
+    font-family: comic sans ms;
+    text-align: center;
+    line-height: 100px;
+
+}
+
+.box2 {
+    width: 79%;
+    height: 100px;
+    background-color: #373737;   
+    display: inline-block;
+    position: relative;
+    float: right;
+}
+
+
+.box2 p {
+    color: #00ccff;
+    font-family: comic sans ms;
+    text-align: center;
+    line-height: 100px;
+
+}
+
+
+
+#cal1preview {
+    display: none;
+}

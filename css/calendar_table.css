@@ -1,0 +1,57 @@
+
+.tbl-view {
+    font-family: myriad pro;
+    text-transform: uppercase;
+    background-color: ;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 270px;
+    text-align: center;
+    min-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1.tbl-title {
+font-family: work sans;
+font-size: 1.4em;
+text-transform: uppercase;
+color: white;
+font-weight: 100;
+padding-left: 35px;
+padding-right: 15px;
+background-color: #103961;
+margin-top: 20px;
+display: inline;
+float: left;
+margin-bottom: 8px;
+}
+
+
+.tbl-days {
+color: #103961;
+font-family: myriad pro;
+background-color: #;
+font-weight: bold;
+font-size: 1.3em;
+padding-top: 10px;
+border-collapse: collapse;
+padding-bottom: 40px;
+}
+
+.tbl-dates {
+    color: #103961;
+    font-family: myriad pro;
+    background-color: ;
+    font-weight: normal;
+    background-color: white;
+    font-size: 0.9em;
+    padding-top: 3px;
+    border-left: solid 2px white;
+    border-bottom: solid 2px white;
+    border-top: solid 2px white;
+
+
+
+    }
+
